@@ -8,6 +8,21 @@
 
 #import <UIKit/UIKit.h>
 
-@interface SecondViewController : UIViewController
+@interface SecondViewController : UIViewController<UINavigationControllerDelegate, UIImagePickerControllerDelegate, UITextFieldDelegate, UIAlertViewDelegate>
+{
+    UIImage *camImg;
+    NSString *tagStr;
+    NSString *titleStr;
+}
+
+@property (weak, nonatomic) IBOutlet UIImageView *imgPreview;
+@property (strong, nonatomic) UIAlertView *tagAlert;
+@property (strong, nonatomic) UIAlertView *titleAlert;
+
+- (IBAction)editTags:(id)sender;
+- (IBAction)editTitle:(id)sender;
+- (IBAction)takePicture:(id)sender;
+- (IBAction)shareImg:(id)sender;
+
 
 @end

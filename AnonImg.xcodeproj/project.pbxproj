@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3F27AC6B15A4CC3700B5B678 /* GalleryController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F27AC6A15A4CC3700B5B678 /* GalleryController.m */; };
+		3F27ACB815A4D03700B5B678 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F27ACB715A4D03600B5B678 /* DetailViewController.m */; };
+		3F27ACBC15A4E08600B5B678 /* imgData.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F27ACBB15A4E08600B5B678 /* imgData.m */; };
 		3FC0A7AA15A2016B00AA604B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FC0A7A915A2016B00AA604B /* UIKit.framework */; };
 		3FC0A7AC15A2016B00AA604B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FC0A7AB15A2016B00AA604B /* Foundation.framework */; };
 		3FC0A7AE15A2016B00AA604B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FC0A7AD15A2016B00AA604B /* CoreGraphics.framework */; };
@@ -15,12 +18,7 @@
 		3FC0A7BA15A2016B00AA604B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FC0A7B915A2016B00AA604B /* AppDelegate.m */; };
 		3FC0A7BD15A2016B00AA604B /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FC0A7BB15A2016B00AA604B /* MainStoryboard_iPhone.storyboard */; };
 		3FC0A7C015A2016B00AA604B /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FC0A7BE15A2016B00AA604B /* MainStoryboard_iPad.storyboard */; };
-		3FC0A7C315A2016B00AA604B /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FC0A7C215A2016B00AA604B /* FirstViewController.m */; };
-		3FC0A7C515A2016C00AA604B /* first.png in Resources */ = {isa = PBXBuildFile; fileRef = 3FC0A7C415A2016C00AA604B /* first.png */; };
-		3FC0A7C715A2016C00AA604B /* first@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3FC0A7C615A2016C00AA604B /* first@2x.png */; };
 		3FC0A7CA15A2016C00AA604B /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FC0A7C915A2016C00AA604B /* SecondViewController.m */; };
-		3FC0A7CC15A2016C00AA604B /* second.png in Resources */ = {isa = PBXBuildFile; fileRef = 3FC0A7CB15A2016C00AA604B /* second.png */; };
-		3FC0A7CE15A2016C00AA604B /* second@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3FC0A7CD15A2016C00AA604B /* second@2x.png */; };
 		3FC0A7D615A2016C00AA604B /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FC0A7D515A2016C00AA604B /* SenTestingKit.framework */; };
 		3FC0A7D715A2016C00AA604B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FC0A7A915A2016B00AA604B /* UIKit.framework */; };
 		3FC0A7D815A2016C00AA604B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FC0A7AB15A2016B00AA604B /* Foundation.framework */; };
@@ -39,31 +37,31 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3F27AC6915A4CC3700B5B678 /* GalleryController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GalleryController.h; sourceTree = "<group>"; };
+		3F27AC6A15A4CC3700B5B678 /* GalleryController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GalleryController.m; sourceTree = "<group>"; };
+		3F27ACB615A4D03600B5B678 /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		3F27ACB715A4D03600B5B678 /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		3F27ACBA15A4E08600B5B678 /* imgData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = imgData.h; sourceTree = "<group>"; };
+		3F27ACBB15A4E08600B5B678 /* imgData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = imgData.m; sourceTree = "<group>"; };
 		3FC0A7A515A2016B00AA604B /* AnonImg.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AnonImg.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3FC0A7A915A2016B00AA604B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		3FC0A7AB15A2016B00AA604B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		3FC0A7AD15A2016B00AA604B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		3FC0A7B115A2016B00AA604B /* AnonImg-Info.plist */ = {isa = PBXFileReference; path = "AnonImg-Info.plist"; sourceTree = "<group>"; };
+		3FC0A7B115A2016B00AA604B /* AnonImg-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AnonImg-Info.plist"; sourceTree = "<group>"; };
 		3FC0A7B315A2016B00AA604B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		3FC0A7B515A2016B00AA604B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		3FC0A7B715A2016B00AA604B /* AnonImg-Prefix.pch */ = {isa = PBXFileReference; path = "AnonImg-Prefix.pch"; sourceTree = "<group>"; };
-		3FC0A7B815A2016B00AA604B /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		3FC0A7B715A2016B00AA604B /* AnonImg-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AnonImg-Prefix.pch"; sourceTree = "<group>"; };
+		3FC0A7B815A2016B00AA604B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		3FC0A7B915A2016B00AA604B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		3FC0A7BC15A2016B00AA604B /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
 		3FC0A7BF15A2016B00AA604B /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
-		3FC0A7C115A2016B00AA604B /* FirstViewController.h */ = {isa = PBXFileReference; path = FirstViewController.h; sourceTree = "<group>"; };
-		3FC0A7C215A2016B00AA604B /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
-		3FC0A7C415A2016C00AA604B /* first.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = first.png; sourceTree = "<group>"; };
-		3FC0A7C615A2016C00AA604B /* first@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "first@2x.png"; sourceTree = "<group>"; };
-		3FC0A7C815A2016C00AA604B /* SecondViewController.h */ = {isa = PBXFileReference; path = SecondViewController.h; sourceTree = "<group>"; };
+		3FC0A7C815A2016C00AA604B /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
 		3FC0A7C915A2016C00AA604B /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
-		3FC0A7CB15A2016C00AA604B /* second.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = second.png; sourceTree = "<group>"; };
-		3FC0A7CD15A2016C00AA604B /* second@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "second@2x.png"; sourceTree = "<group>"; };
 		3FC0A7D415A2016C00AA604B /* AnonImgTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AnonImgTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3FC0A7D515A2016C00AA604B /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		3FC0A7DD15A2016C00AA604B /* AnonImgTests-Info.plist */ = {isa = PBXFileReference; path = "AnonImgTests-Info.plist"; sourceTree = "<group>"; };
+		3FC0A7DD15A2016C00AA604B /* AnonImgTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AnonImgTests-Info.plist"; sourceTree = "<group>"; };
 		3FC0A7DF15A2016C00AA604B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		3FC0A7E115A2016C00AA604B /* AnonImgTests.h */ = {isa = PBXFileReference; path = AnonImgTests.h; sourceTree = "<group>"; };
+		3FC0A7E115A2016C00AA604B /* AnonImgTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AnonImgTests.h; sourceTree = "<group>"; };
 		3FC0A7E215A2016C00AA604B /* AnonImgTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AnonImgTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -91,6 +89,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3F27ACB915A4DF7300B5B678 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				3F27ACBA15A4E08600B5B678 /* imgData.h */,
+				3F27ACBB15A4E08600B5B678 /* imgData.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
 		3FC0A79A15A2016B00AA604B = {
 			isa = PBXGroup;
 			children = (
@@ -124,18 +131,17 @@
 		3FC0A7AF15A2016B00AA604B /* AnonImg */ = {
 			isa = PBXGroup;
 			children = (
+				3F27ACB915A4DF7300B5B678 /* Model */,
 				3FC0A7B815A2016B00AA604B /* AppDelegate.h */,
 				3FC0A7B915A2016B00AA604B /* AppDelegate.m */,
 				3FC0A7BB15A2016B00AA604B /* MainStoryboard_iPhone.storyboard */,
 				3FC0A7BE15A2016B00AA604B /* MainStoryboard_iPad.storyboard */,
-				3FC0A7C115A2016B00AA604B /* FirstViewController.h */,
-				3FC0A7C215A2016B00AA604B /* FirstViewController.m */,
-				3FC0A7C415A2016C00AA604B /* first.png */,
-				3FC0A7C615A2016C00AA604B /* first@2x.png */,
 				3FC0A7C815A2016C00AA604B /* SecondViewController.h */,
 				3FC0A7C915A2016C00AA604B /* SecondViewController.m */,
-				3FC0A7CB15A2016C00AA604B /* second.png */,
-				3FC0A7CD15A2016C00AA604B /* second@2x.png */,
+				3F27AC6915A4CC3700B5B678 /* GalleryController.h */,
+				3F27AC6A15A4CC3700B5B678 /* GalleryController.m */,
+				3F27ACB615A4D03600B5B678 /* DetailViewController.h */,
+				3F27ACB715A4D03600B5B678 /* DetailViewController.m */,
 				3FC0A7B015A2016B00AA604B /* Supporting Files */,
 			);
 			path = AnonImg;
@@ -244,10 +250,6 @@
 				3FC0A7B415A2016B00AA604B /* InfoPlist.strings in Resources */,
 				3FC0A7BD15A2016B00AA604B /* MainStoryboard_iPhone.storyboard in Resources */,
 				3FC0A7C015A2016B00AA604B /* MainStoryboard_iPad.storyboard in Resources */,
-				3FC0A7C515A2016C00AA604B /* first.png in Resources */,
-				3FC0A7C715A2016C00AA604B /* first@2x.png in Resources */,
-				3FC0A7CC15A2016C00AA604B /* second.png in Resources */,
-				3FC0A7CE15A2016C00AA604B /* second@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,8 +286,10 @@
 			files = (
 				3FC0A7B615A2016B00AA604B /* main.m in Sources */,
 				3FC0A7BA15A2016B00AA604B /* AppDelegate.m in Sources */,
-				3FC0A7C315A2016B00AA604B /* FirstViewController.m in Sources */,
 				3FC0A7CA15A2016C00AA604B /* SecondViewController.m in Sources */,
+				3F27AC6B15A4CC3700B5B678 /* GalleryController.m in Sources */,
+				3F27ACB815A4D03700B5B678 /* DetailViewController.m in Sources */,
+				3F27ACBC15A4E08600B5B678 /* imgData.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -397,6 +401,7 @@
 				GCC_PREFIX_HEADER = "AnonImg/AnonImg-Prefix.pch";
 				INFOPLIST_FILE = "AnonImg/AnonImg-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -408,6 +413,7 @@
 				GCC_PREFIX_HEADER = "AnonImg/AnonImg-Prefix.pch";
 				INFOPLIST_FILE = "AnonImg/AnonImg-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -465,6 +471,7 @@
 				3FC0A7E815A2016C00AA604B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3FC0A7E915A2016C00AA604B /* Build configuration list for PBXNativeTarget "AnonImgTests" */ = {
 			isa = XCConfigurationList;
@@ -473,6 +480,7 @@
 				3FC0A7EB15A2016C00AA604B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
